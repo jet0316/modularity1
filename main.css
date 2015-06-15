@@ -1,0 +1,24 @@
+.datatable {
+	width: 100%;
+	
+}
+
+.datatable tr {
+	border-bottom: 1px solid #CCCCCC
+}
+
+.datatable .lastrow {
+	border-bottom: 0px solid #CCCCCC
+}
+
+.datatable td {
+	padding: 5px
+}
+
+.stats {
+	font-size: 150%;
+}
+
+.description {
+	font-size: 50%;
+}

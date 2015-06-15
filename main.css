@@ -22,3 +22,8 @@
 .description {
 	font-size: 50%;
 }
+
+.tablestats tr {
+	border-top: 1px solid #CCCCCC
+	border-bottom: 1px solid #CCCCCC
+}

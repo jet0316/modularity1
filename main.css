@@ -4,26 +4,97 @@
 }
 
 .datatable tr {
-	border-bottom: 1px solid #CCCCCC
+	border-bottom: 1px solid #CCCCCC;
 }
 
 .datatable .lastrow {
-	border-bottom: 0px solid #CCCCCC
+	border-bottom: 0px solid #CCCCCC;
 }
 
 .datatable td {
 	padding: 5px
 }
 
-.stats {
-	font-size: 150%;
+.tablestats {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
 }
 
-.description {
-	font-size: 50%;
+.tablestats .number {
+	font-weight: bold;
+	font-size: 200%;
 }
 
-.tablestats tr {
-	border-top: 1px solid #CCCCCC
-	border-bottom: 1px solid #CCCCCC
+.tablestats td {
+	text-align: center;
+	padding: 20px;
+}
+
+.tablestats .number-color {
+	font-size: 85%;
+	color:#858585;
+}
+
+.graph .graph-color {
+	color: white;
+	background-color: #527ACC;
+	position: relative;
+	border-radius: 5px;
+	/*margin-top: 2px;*/
+	padding: 2px;
+}
+
+.graph td {
+	width: 800px;
+	text-align: left;
+	padding: 2px;
+	
+}
+
+.graph th {
+	width: 15%;
+}
+
+/*body {
+	background-color: #666666;
+}
+
+.lightbox {
+	position: fixed;
+	text-align: left;
+	top: 30%;
+	background-color: white;
+	left: 300px;
+	right: 300px;
+	padding: 20px;
+	padding-bottom: 5px;
+	border-radius: 7px;
+	width: 400px;
+	margin: auto;
+}
+
+.lightbox a {
+	text-align: center; 
+	background-color:#CC4040;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	color: white;
+	border-radius: 5px;
+	margin: 10px 20px;
+	text-decoration: none;
+	width: 100px;
+}*/
+
+.float1 {
+	float: left;
+	padding: 5px;
+}
+
+.clear {
+	overflow: hidden;
+}
+
+.subclass {
+	margin-left: 55px;
 }
